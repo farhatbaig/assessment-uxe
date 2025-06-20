@@ -1,0 +1,55 @@
+.vehicle-info-popup {
+  width: 280px;
+  background-color: #2D2D2D;
+  color: #E0E0E0;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.leaflet-popup-content-wrapper {
+  background-color: #2D2D2D;
+  border-radius: 8px;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  padding: 0;
+}
+
+.leaflet-popup-tip {
+  background-color: #2D2D2D;
+}
+
+.info-header {
+  padding: 10px 14px;
+  border-bottom: 1px solid #424242;
+}
+
+.info-header span {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.info-body {
+  padding: 14px;
+}
+
+.info-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.stat-item img {
+  width: 14px;
+  height: 14px;
+} 
