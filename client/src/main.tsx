@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import { Provider } from 'react-redux'
 import { store } from './store'
-import 'leaflet/dist/leaflet.css'
+import 'mapbox-gl/dist/mapbox-gl.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
